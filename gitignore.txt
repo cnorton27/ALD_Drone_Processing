@@ -1,0 +1,53 @@
+
+## prevent users to commit to heavy files
+*.zip
+*.tif
+*.shp
+*.venv\
+*.tiff
+
+.wav
+.txt
+
+## temporary files
+*~
+# Word temporary
+~$*.doc*
+# Excel temporary
+~$*.xls*
+# Excel Backup File
+*.xlk
+# PowerPoint temporary
+~$*.ppt*
+## hide the workspace creation procedure
+scripts\create_workspace\*
+scripts/create_workspace/*
+## local files to ignore
+
+## prevent mac users to commit .DS_Store files
+*.DS_Store
+
+# get rid of icon files
+*.Icon\r\r
+## prevent to commit Thumbs.db files
+Thumbs.db
+# index.lock files
+index.lock
+.httr-oauth
+
+
+## prevent users to commit their own ShrubHub RProject
+.Rproj.user
+QHI_map_R.Rproj
+.Rproj
+## prevent users to commit their own .RData and .Rhistory in mutual area
+.RData
+.Rhistory
+workspace/.RData
+workspace/.Rhistory
+workspace\.RData
+workspace\.Rhistory
+.Rapp.history
+
+# Ignore Rplots.pdf files
+Rplots.pdf
